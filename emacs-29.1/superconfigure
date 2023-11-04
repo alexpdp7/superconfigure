@@ -18,7 +18,7 @@ fi
 
 alias strip=$STRIP
 alias ar=$AR
-FOLDER="emacs-28.2"
+FOLDER="emacs-29.1"
 
 if [[ -f sources.tar.gz ]]; then
     # we already downloaded it
@@ -27,7 +27,7 @@ if [[ -f sources.tar.gz ]]; then
     cd ..
 else
     # download the source code
-    wget -q https://ftp.gnu.org/gnu/emacs/emacs-28.2.tar.gz -O sources.tar.gz
+    wget -q https://ftp.gnu.org/gnu/emacs/emacs-29.1.tar.gz -O sources.tar.gz
     tar -xzf sources.tar.gz
 
     # apply patches if any
